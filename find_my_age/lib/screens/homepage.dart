@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Find My Age!'),
       ),
-      body: SingleChildScrollView(
+      body: SingleChildScrollView(//single child view
         child: Center(
           child: Column(
             children: [
