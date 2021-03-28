@@ -32,7 +32,7 @@ class ListOfAgeCards extends StatelessWidget {
                 ),
               ),
               Text(
-                (ageHours / (24 * 365)).toStringAsFixed(0),
+                (ageHours / (24 * 365)).toStringAsFixed(1),
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.normal,
@@ -56,7 +56,7 @@ class ListOfAgeCards extends StatelessWidget {
                 ),
               ),
               Text(
-                ((ageHours / (24 * 365)) * 12).toStringAsFixed(0),
+                ((ageHours / (24 * 365)) * 12).toStringAsFixed(1),
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.normal,
@@ -80,7 +80,7 @@ class ListOfAgeCards extends StatelessWidget {
                 ),
               ),
               Text(
-                (ageHours / (24 * 7)).toStringAsFixed(0),
+                (ageHours / (24 * 7)).toStringAsFixed(1),
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.normal,
